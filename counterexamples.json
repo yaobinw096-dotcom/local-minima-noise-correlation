@@ -1,0 +1,159 @@
+[
+  {
+    "graph": "C4",
+    "method": "exact linear-extension count",
+    "variance": "2/9",
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "3/5",
+      "2/5",
+      "0"
+    ],
+    "correlation_at_half": "1/5",
+    "passed": true
+  },
+  {
+    "graph": "C5",
+    "method": "exact linear-extension count",
+    "variance": "2/9",
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "1/2",
+      "1/2",
+      "0",
+      "0"
+    ],
+    "correlation_at_half": "3/16",
+    "passed": true
+  },
+  {
+    "graph": "circular_ladder",
+    "length": 9,
+    "n": 18,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 18,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "11/20",
+      "9/25",
+      "9/100"
+    ],
+    "passed": true
+  },
+  {
+    "graph": "generalized_petersen",
+    "length": 9,
+    "n": 18,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 0,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "1/2",
+      "2/5",
+      "1/10"
+    ],
+    "passed": true
+  },
+  {
+    "graph": "circular_ladder",
+    "length": 10,
+    "n": 20,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 20,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "11/20",
+      "9/25",
+      "9/100"
+    ],
+    "passed": true
+  },
+  {
+    "graph": "generalized_petersen",
+    "length": 10,
+    "n": 20,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 0,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "1/2",
+      "2/5",
+      "1/10"
+    ],
+    "passed": true
+  },
+  {
+    "graph": "circular_ladder",
+    "length": 11,
+    "n": 22,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 22,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "11/20",
+      "9/25",
+      "9/100"
+    ],
+    "passed": true
+  },
+  {
+    "graph": "generalized_petersen",
+    "length": 11,
+    "n": 22,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 0,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "1/2",
+      "2/5",
+      "1/10"
+    ],
+    "passed": true
+  },
+  {
+    "graph": "circular_ladder",
+    "length": 20,
+    "n": 40,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 40,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "11/20",
+      "9/25",
+      "9/100"
+    ],
+    "passed": true
+  },
+  {
+    "graph": "generalized_petersen",
+    "length": 20,
+    "n": 40,
+    "d": 3,
+    "method": "exact graph invariants and covariance identity",
+    "S2": 0,
+    "correlation_coefficients": [
+      "0",
+      "0",
+      "1/2",
+      "2/5",
+      "1/10"
+    ],
+    "passed": true
+  }
+]

@@ -1,0 +1,241 @@
+[
+  {
+    "graph": "K1,1",
+    "n": 2,
+    "d": 1,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "0"
+    ],
+    "S_k": [
+      0,
+      0
+    ],
+    "recovered_m_c": [
+      "0",
+      "0"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "C4",
+    "n": 4,
+    "d": 2,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "2/15",
+      "4/45"
+    ],
+    "S_k": [
+      2,
+      4,
+      2
+    ],
+    "recovered_m_c": [
+      "0",
+      "0",
+      "2"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "C5",
+    "n": 5,
+    "d": 2,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "1/9",
+      "1/9"
+    ],
+    "S_k": [
+      5,
+      5,
+      0
+    ],
+    "recovered_m_c": [
+      "0",
+      "5",
+      "0"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "C6",
+    "n": 6,
+    "d": 2,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "2/15",
+      "2/15"
+    ],
+    "S_k": [
+      9,
+      6,
+      0
+    ],
+    "recovered_m_c": [
+      "3",
+      "6",
+      "0"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "C7",
+    "n": 7,
+    "d": 2,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "7/45",
+      "7/45"
+    ],
+    "S_k": [
+      14,
+      7,
+      0
+    ],
+    "recovered_m_c": [
+      "7",
+      "7",
+      "0"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "C8",
+    "n": 8,
+    "d": 2,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "8/45",
+      "8/45"
+    ],
+    "S_k": [
+      20,
+      8,
+      0
+    ],
+    "recovered_m_c": [
+      "12",
+      "8",
+      "0"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "K3,3",
+    "n": 6,
+    "d": 3,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "15/56",
+      "3/20",
+      "9/280"
+    ],
+    "S_k": [
+      6,
+      18,
+      18,
+      6
+    ],
+    "recovered_m_c": [
+      "0",
+      "0",
+      "0",
+      "6"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "K4,4",
+    "n": 8,
+    "d": 4,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "28/75",
+      "104/525",
+      "92/1575",
+      "16/1575"
+    ],
+    "S_k": [
+      12,
+      48,
+      72,
+      48,
+      12
+    ],
+    "recovered_m_c": [
+      "0",
+      "0",
+      "0",
+      "0",
+      "12"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "2C4",
+    "n": 8,
+    "d": 2,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "4/15",
+      "8/45"
+    ],
+    "S_k": [
+      20,
+      8,
+      4
+    ],
+    "recovered_m_c": [
+      "16",
+      "0",
+      "4"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  },
+  {
+    "graph": "cube",
+    "n": 8,
+    "d": 3,
+    "covariance_coefficients": [
+      "0",
+      "0",
+      "2/7",
+      "6/35",
+      "3/70"
+    ],
+    "S_k": [
+      16,
+      24,
+      12,
+      0
+    ],
+    "recovered_m_c": [
+      "4",
+      "0",
+      "12",
+      "0"
+    ],
+    "exact_polynomial_match": true,
+    "exact_histogram_recovery": true
+  }
+]

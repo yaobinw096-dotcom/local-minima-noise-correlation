@@ -1,0 +1,389 @@
+[
+  {
+    "graph": "C3",
+    "n": 3,
+    "d": 2,
+    "m_c": [
+      0,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C4",
+    "n": 4,
+    "d": 2,
+    "m_c": [
+      0,
+      0,
+      2
+    ],
+    "variance_at_t1": "2/9",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C5",
+    "n": 5,
+    "d": 2,
+    "m_c": [
+      0,
+      5,
+      0
+    ],
+    "variance_at_t1": "2/9",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C6",
+    "n": 6,
+    "d": 2,
+    "m_c": [
+      3,
+      6,
+      0
+    ],
+    "variance_at_t1": "4/15",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C7",
+    "n": 7,
+    "d": 2,
+    "m_c": [
+      7,
+      7,
+      0
+    ],
+    "variance_at_t1": "14/45",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C8",
+    "n": 8,
+    "d": 2,
+    "m_c": [
+      12,
+      8,
+      0
+    ],
+    "variance_at_t1": "16/45",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C9",
+    "n": 9,
+    "d": 2,
+    "m_c": [
+      18,
+      9,
+      0
+    ],
+    "variance_at_t1": "2/5",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C10",
+    "n": 10,
+    "d": 2,
+    "m_c": [
+      25,
+      10,
+      0
+    ],
+    "variance_at_t1": "4/9",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C11",
+    "n": 11,
+    "d": 2,
+    "m_c": [
+      33,
+      11,
+      0
+    ],
+    "variance_at_t1": "22/45",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C12",
+    "n": 12,
+    "d": 2,
+    "m_c": [
+      42,
+      12,
+      0
+    ],
+    "variance_at_t1": "8/15",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K2",
+    "n": 2,
+    "d": 1,
+    "m_c": [
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K3",
+    "n": 3,
+    "d": 2,
+    "m_c": [
+      0,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K4",
+    "n": 4,
+    "d": 3,
+    "m_c": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K5",
+    "n": 5,
+    "d": 4,
+    "m_c": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K6",
+    "n": 6,
+    "d": 5,
+    "m_c": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K7",
+    "n": 7,
+    "d": 6,
+    "m_c": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K8",
+    "n": 8,
+    "d": 7,
+    "m_c": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K1,1",
+    "n": 2,
+    "d": 1,
+    "m_c": [
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K2,2",
+    "n": 4,
+    "d": 2,
+    "m_c": [
+      0,
+      0,
+      2
+    ],
+    "variance_at_t1": "2/9",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K3,3",
+    "n": 6,
+    "d": 3,
+    "m_c": [
+      0,
+      0,
+      0,
+      6
+    ],
+    "variance_at_t1": "9/20",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K4,4",
+    "n": 8,
+    "d": 4,
+    "m_c": [
+      0,
+      0,
+      0,
+      0,
+      12
+    ],
+    "variance_at_t1": "16/25",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K5,5",
+    "n": 10,
+    "d": 5,
+    "m_c": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      20
+    ],
+    "variance_at_t1": "50/63",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "K6,6",
+    "n": 12,
+    "d": 6,
+    "m_c": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      30
+    ],
+    "variance_at_t1": "45/49",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "2C3",
+    "n": 6,
+    "d": 2,
+    "m_c": [
+      9,
+      0,
+      0
+    ],
+    "variance_at_t1": "0",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "2C4",
+    "n": 8,
+    "d": 2,
+    "m_c": [
+      16,
+      0,
+      4
+    ],
+    "variance_at_t1": "4/9",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "C3+C5",
+    "n": 8,
+    "d": 2,
+    "m_c": [
+      15,
+      5,
+      0
+    ],
+    "variance_at_t1": "2/9",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "cube",
+    "n": 8,
+    "d": 3,
+    "m_c": [
+      4,
+      0,
+      12,
+      0
+    ],
+    "variance_at_t1": "1/2",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "prism",
+    "n": 6,
+    "d": 3,
+    "m_c": [
+      0,
+      0,
+      6,
+      0
+    ],
+    "variance_at_t1": "1/4",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "Petersen",
+    "n": 10,
+    "d": 3,
+    "m_c": [
+      0,
+      30,
+      0,
+      0
+    ],
+    "variance_at_t1": "15/28",
+    "exact_polynomial_match": true
+  },
+  {
+    "graph": "Heawood",
+    "n": 14,
+    "d": 3,
+    "m_c": [
+      28,
+      42,
+      0,
+      0
+    ],
+    "variance_at_t1": "3/4",
+    "exact_polynomial_match": true
+  }
+]

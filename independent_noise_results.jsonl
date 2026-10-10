@@ -1,0 +1,9 @@
+{"graph": "C4", "pass": true, "exact_coefficients": ["0", "0", "2/15", "4/45"]}
+{"graph": "C5", "pass": true, "exact_coefficients": ["0", "0", "1/9", "1/9"]}
+{"graph": "C6", "pass": true, "exact_coefficients": ["0", "0", "2/15", "2/15"]}
+{"graph": "C7", "pass": true, "exact_coefficients": ["0", "0", "7/45", "7/45"]}
+{"graph": "K2", "pass": true, "exact_coefficients": ["0", "0", "0"]}
+{"graph": "K3,3", "pass": true, "exact_coefficients": ["0", "0", "15/56", "3/20", "9/280"]}
+{"graph": "K4,4", "pass": true, "exact_coefficients": ["0", "0", "28/75", "104/525", "92/1575", "16/1575"]}
+{"graph": "Q3", "pass": true, "exact_coefficients": ["0", "0", "2/7", "6/35", "3/70"]}
+{"graph": "Petersen", "pass": true, "exact_coefficients": ["0", "0", "15/56", "3/14", "3/56"]}

@@ -1,0 +1,465 @@
+{
+  "total_results": 18,
+  "returned": 18,
+  "query_as_executed": "arXiv Query: search_query=(all:\"local minima\" OR all:\"local maxima\") AND (all:graph) AND (all:noise OR all:variance OR all:threshold)&id_list=&start=0&max_results=20",
+  "entries": [
+    {
+      "arxiv_id": "2004.02208",
+      "arxiv_id_versioned": "2004.02208v1",
+      "version": "1",
+      "title": "Noise-enhanced spatial-photonic Ising machine",
+      "abstract": "Ising machines are novel computing devices for the energy minimization of Ising models. These combinatorial optimization problems are of paramount importance for science and technology, but remain difficult to tackle on large scale by conventional electronics. Recently, various photonics-based Ising machines demonstrated ultra-fast computing of Ising ground state by data processing through multiple temporal or spatial optical channels. Experimental noise acts as a detrimental effect in many of these devices. On the contrary, we here demonstrate that an optimal noise level enhances the performance of spatial-photonic Ising machines on frustrated spin problems. By controlling the error rate at the detection, we introduce a noisy-feedback mechanism in an Ising machine based on spatial light modulation. We investigate the device performance on systems with hundreds of individually-addressable spins with all-to-all couplings and we found an increased success probability at a specific noise level. The optimal noise amplitude depends on graph properties and size, thus indicating an additional tunable parameter helpful in exploring complex energy landscapes and in avoiding trapping into local minima. The result points out noise as a resource for optical computing. This concept, which also holds in different nanophotonic neural networks, may be crucial in developing novel hardware with optics-enabled parallel architecture for large-scale optimizations.",
+      "authors": [
+        "Davide Pierangeli",
+        "Giulia Marcucci",
+        "Daniel Brunner",
+        "Claudio Conti"
+      ],
+      "published": "2020-04-05T14:18:27Z",
+      "updated": "2020-04-05T14:18:27Z",
+      "primary_category": "physics.optics",
+      "categories": [
+        "physics.optics",
+        "cond-mat.dis-nn",
+        "physics.app-ph"
+      ],
+      "doi": "10.1515/nanoph-2020-0119",
+      "journal_ref": null,
+      "comment": "7 pages, 4 figures",
+      "abstract_url": "https://arxiv.org/abs/2004.02208v1",
+      "pdf_url": "https://arxiv.org/pdf/2004.02208v1"
+    },
+    {
+      "arxiv_id": "1211.3063",
+      "arxiv_id_versioned": "1211.3063v1",
+      "version": "1",
+      "title": "From Angular Manifolds to the Integer Lattice: Guaranteed Orientation Estimation with Application to Pose Graph Optimization",
+      "abstract": "Estimating the orientations of nodes in a pose graph from relative angular measurements is challenging because the variables live on a manifold product with nontrivial topology and the maximum-likelihood objective function is non-convex and has multiple local minima; these issues prevent iterative solvers to be robust for large amounts of noise. This paper presents an approach that allows working around the problem of multiple minima, and is based on the insight that the original estimation problem on orientations is equivalent to an unconstrained quadratic optimization problem on integer vectors. This equivalence provides a viable way to compute the maximum likelihood estimate and allows guaranteeing that such estimate is almost surely unique. A deeper consequence of the derivation is that the maximum likelihood solution does not necessarily lead to an estimate that is \"close\" to the actual nodes orientations, hence it is not necessarily the best choice for the problem at hand. To alleviate this issue, our algorithm computes a set of estimates, for which we can derive precise probabilistic guarantees. Experiments show that the method is able to tolerate extreme amounts of noise (e.g., σ = 30° on each measurement) that are above all noise levels of sensors commonly used in mapping. For most range-finder-based scenarios, the multi-hypothesis estimator returns only a single hypothesis, because the problem is very well constrained. Finally, using the orientations estimate provided by our method to bootstrap the initial guess of pose graph optimization methods improves their robustness and makes them avoid local minima even for high levels of noise.",
+      "authors": [
+        "Luca Carlone",
+        "Andrea Censi"
+      ],
+      "published": "2012-11-13T18:08:27Z",
+      "updated": "2012-11-13T18:08:27Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "math.OC"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": "24 pages, 5 figures, 5 tables",
+      "abstract_url": "https://arxiv.org/abs/1211.3063v1",
+      "pdf_url": "https://arxiv.org/pdf/1211.3063v1"
+    },
+    {
+      "arxiv_id": "2603.23398",
+      "arxiv_id_versioned": "2603.23398v3",
+      "version": "3",
+      "title": "Graph Energy Matching: Transport-Aligned Energy-Based Modeling for Graph Generation",
+      "abstract": "Generative modeling of discrete data, such as graphs, underpins many scientific and industrial applications, including molecular discovery and materials design. In these domains, probabilistic inference is particularly valuable, as it enables composable generation and principled incorporation of desired constraints, such as structural or functional properties. Energy-based models naturally support this goal by capturing relative likelihoods and enabling composable inference by directly enforcing constraints during inference. However, discrete energy-based models typically struggle with efficient and high-quality sampling, as off-support regions often contain spurious local minima, trapping samplers and causing training instabilities, resulting in a fidelity gap compared to discrete diffusion models. To address this gap, we introduce Graph Energy Matching (GEM), a discrete generative framework inspired by the Jordan-Kinderlehrer-Otto (JKO) transport-map optimization perspective. GEM learns a permutation-invariant potential energy that simultaneously guides discrete transport from noise toward high-likelihood graph regions and refines samples within these regions. We further introduce a sampling protocol leveraging an energy-based switching strategy, seamlessly bridging rapid, gradient-guided transport and a local mixing regime for effective exploration. On molecular graph benchmarks, GEM matches or surpasses strong discrete diffusion baselines on most reported metrics. Beyond improving generation quality, GEM's relative likelihood modeling enables targeted exploration, facilitating compositional generation, property-constrained sampling, and interpolation between graphs. Project page: https://michalbalcerak.ai/graph-energy-matching/.",
+      "authors": [
+        "Michal Balcerak",
+        "Suprosanna Shit",
+        "Chinmay Prabhakar",
+        "Sebastian Kaltenbach",
+        "Michael S. Albergo",
+        "Yilun Du",
+        "Bjoern Menze"
+      ],
+      "published": "2026-03-24T16:35:25Z",
+      "updated": "2026-06-01T12:59:54Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG",
+        "cs.AI",
+        "stat.ML"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2603.23398v3",
+      "pdf_url": "https://arxiv.org/pdf/2603.23398v3"
+    },
+    {
+      "arxiv_id": "1809.07744",
+      "arxiv_id_versioned": "1809.07744v2",
+      "version": "2",
+      "title": "Guaranteed Globally Optimal Planar Pose Graph and Landmark SLAM via Sparse-Bounded Sums-of-Squares Programming",
+      "abstract": "Autonomous navigation requires an accurate model or map of the environment. While dramatic progress in the prior two decades has enabled large-scale SLAM, the majority of existing methods rely on non-linear optimization techniques to find the MLE of the robot trajectory and surrounding environment. These methods are prone to local minima and are thus sensitive to initialization. Several recent papers have developed optimization algorithms for the Pose-Graph SLAM problem that can certify the optimality of a computed solution. Though this does not guarantee a priori that this approach generates an optimal solution, a recent extension has shown that when the noise lies within a critical threshold that the solution to the optimization algorithm is guaranteed to be optimal. To address the limitations of existing approaches, this paper illustrates that the Pose-Graph SLAM and Landmark SLAM can be formulated as polynomial optimization programs that are SOS convex. This paper then describes how the Pose-Graph and Landmark SLAM problems can be solved to a global minimum without initialization regardless of noise level using the Sparse-BSOS hierarchy. This paper also empirically illustrates that convergence happens at the second step in this hierarchy. In addition, this paper illustrates how this Sparse-BSOS hierarchy can be implemented in the complex domain and empirically shows that convergence happens also at the second step of this complex domain hierarchy. Finally, the superior performance of the proposed approach when compared to existing SLAM methods is illustrated on graphs with several hundred nodes.",
+      "authors": [
+        "Joshua G. Mangelson",
+        "Jinsun Liu",
+        "Ryan M. Eustice",
+        "Ram Vasudevan"
+      ],
+      "published": "2018-09-20T17:19:28Z",
+      "updated": "2022-03-16T00:37:57Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": "12 pages, 5 figures, Original Version Published in IEEE International Conference on Robotics and Automation",
+      "abstract_url": "https://arxiv.org/abs/1809.07744v2",
+      "pdf_url": "https://arxiv.org/pdf/1809.07744v2"
+    },
+    {
+      "arxiv_id": "2307.02941",
+      "arxiv_id_versioned": "2307.02941v2",
+      "version": "2",
+      "title": "Benign landscapes of low-dimensional relaxations for orthogonal synchronization on general graphs",
+      "abstract": "Orthogonal group synchronization is the problem of estimating $n$ elements $Z_1, \\ldots, Z_n$ from the $r \\times r$ orthogonal group given some relative measurements $R_{ij} \\approx Z_i^{}Z_j^{-1}$. The least-squares formulation is nonconvex. To avoid its local minima, a Shor-type convex relaxation squares the dimension of the optimization problem from $O(n)$ to $O(n^2)$. Alternatively, Burer--Monteiro-type nonconvex relaxations have generic landscape guarantees at dimension $O(n^{3/2})$. For smaller relaxations, the problem structure matters. It has been observed in the robotics literature that, for SLAM problems, it seems sufficient to increase the dimension by a small constant multiple over the original. We partially explain this. This also has implications for Kuramoto oscillators. Specifically, we minimize the least-squares cost function in terms of estimators $Y_1, \\ldots, Y_n$. For $p \\geq r$, each $Y_i$ is relaxed to the Stiefel manifold $\\mathrm{St}(r, p)$ of $r \\times p$ matrices with orthonormal rows. The available measurements implicitly define a (connected) graph $G$ on $n$ vertices. In the noiseless case, we show that, for all connected graphs $G$, second-order critical points are globally optimal as soon as $p \\geq r+2$. (This implies that Kuramoto oscillators on $\\mathrm{St}(r, p)$ synchronize for all $p \\geq r + 2$.) This result is the best possible for general graphs; the previous best known result requires $2p \\geq 3(r + 1)$. For $p > r + 2$, our result is robust to modest amounts of noise (depending on $p$ and $G$). Our proof uses a novel randomized choice of tangent direction to prove (near-)optimality of second-order critical points. Finally, we partially extend our noiseless landscape results to the complex case (unitary group); we show that there are no spurious local minima when $2p \\geq 3r$.",
+      "authors": [
+        "Andrew D. McRae",
+        "Nicolas Boumal"
+      ],
+      "published": "2023-07-06T12:13:40Z",
+      "updated": "2024-02-08T13:30:08Z",
+      "primary_category": "math.OC",
+      "categories": [
+        "math.OC"
+      ],
+      "doi": "10.1137/23M1584642",
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2307.02941v2",
+      "pdf_url": "https://arxiv.org/pdf/2307.02941v2"
+    },
+    {
+      "arxiv_id": "1806.00281",
+      "arxiv_id_versioned": "1806.00281v1",
+      "version": "1",
+      "title": "A Recursive Least Square Method for 3D Pose Graph Optimization Problem",
+      "abstract": "Pose Graph Optimization (PGO) is an important non-convex optimization problem and is the state-of-the-art formulation for SLAM in robotics. It also has applications like camera motion estimation, structure from motion and 3D reconstruction in machine vision. Recent researches have shown the importance of good initialization to bootstrap well-known iterative PGO solvers to converge to good solutions. The state-of-the-art initialization methods, however, works in low noise or eventually moderate noise problems, and they fail in challenging problems with high measurement noise. Consequently, iterative methods may get entangled in local minima in high noise scenarios. In this paper we present an initialization method which uses orientation measurements and then present a convergence analysis of our iterative algorithm. We show how the algorithm converges to global optima in noise-free cases and also obtain a bound for the difference between our result and the optimum solution in scenarios with noisy measurements. We then present our second algorithm that uses both relative orientation and position measurements to obtain a more accurate least squares approximation of the problem that is again solved iteratively. In the convergence proof, a structural coefficient arises that has important influence on the basin of convergence. Interestingly, simulation results show that this coefficient also affects the performance of other solvers and so it can indicate the complexity of the problem. Experimental results show the excellent performance of the proposed initialization algorithm, specially in high noise scenarios.",
+      "authors": [
+        "S. M. Nasiri",
+        "Reshad Hosseini",
+        "Hadi Moradi"
+      ],
+      "published": "2018-06-01T10:52:39Z",
+      "updated": "2018-06-01T10:52:39Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/1806.00281v1",
+      "pdf_url": "https://arxiv.org/pdf/1806.00281v1"
+    },
+    {
+      "arxiv_id": "2307.14193",
+      "arxiv_id_versioned": "2307.14193v1",
+      "version": "1",
+      "title": "Efficient Learning of Discrete-Continuous Computation Graphs",
+      "abstract": "Numerous models for supervised and reinforcement learning benefit from combinations of discrete and continuous model components. End-to-end learnable discrete-continuous models are compositional, tend to generalize better, and are more interpretable. A popular approach to building discrete-continuous computation graphs is that of integrating discrete probability distributions into neural networks using stochastic softmax tricks. Prior work has mainly focused on computation graphs with a single discrete component on each of the graph's execution paths. We analyze the behavior of more complex stochastic computations graphs with multiple sequential discrete components. We show that it is challenging to optimize the parameters of these models, mainly due to small gradients and local minima. We then propose two new strategies to overcome these challenges. First, we show that increasing the scale parameter of the Gumbel noise perturbations during training improves the learning behavior. Second, we propose dropout residual connections specifically tailored to stochastic, discrete-continuous computation graphs. With an extensive set of experiments, we show that we can train complex discrete-continuous models which one cannot train with standard stochastic softmax tricks. We also show that complex discrete-stochastic models generalize better than their continuous counterparts on several benchmark datasets.",
+      "authors": [
+        "David Friede",
+        "Mathias Niepert"
+      ],
+      "published": "2023-07-26T13:47:52Z",
+      "updated": "2023-07-26T13:47:52Z",
+      "primary_category": "cs.LG",
+      "categories": [
+        "cs.LG"
+      ],
+      "doi": null,
+      "journal_ref": "NeurIPS 34 (2021) 6720-6732",
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2307.14193v1",
+      "pdf_url": "https://arxiv.org/pdf/2307.14193v1"
+    },
+    {
+      "arxiv_id": "2203.09552",
+      "arxiv_id_versioned": "2203.09552v3",
+      "version": "3",
+      "title": "Extremal Event Graphs: A (Stable) Tool for Analyzing Noisy Time Series Data",
+      "abstract": "Local maxima and minima, or extremal events, in experimental time series can be used as a coarse summary to characterize data. However, the discrete sampling in recording experimental measurements suggests uncertainty on the true timing of extrema during the experiment. This in turn gives uncertainty in the timing order of extrema within the time series. Motivated by applications in genomic time series and biological network analysis, we construct a weighted directed acyclic graph (DAG) called an extremal event DAG using techniques from persistent homology that is robust to measurement noise. Furthermore, we define a distance between extremal event DAGs based on the edit distance between strings. We prove several properties including local stability for the extremal event DAG distance with respect to pairwise $L_{\\infty}$ distances between functions in the time series data. Lastly, we provide algorithms, publicly free software, and implementations on extremal event DAG construction and comparison.",
+      "authors": [
+        "Robin Belton",
+        "Bree Cummins",
+        "Brittany Terese Fasy",
+        "Tomáš Gedeon"
+      ],
+      "published": "2022-03-17T18:26:33Z",
+      "updated": "2022-08-24T02:43:59Z",
+      "primary_category": "cs.DS",
+      "categories": [
+        "cs.DS",
+        "math.AT"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2203.09552v3",
+      "pdf_url": "https://arxiv.org/pdf/2203.09552v3"
+    },
+    {
+      "arxiv_id": "2201.03773",
+      "arxiv_id_versioned": "2201.03773v1",
+      "version": "1",
+      "title": "Performance Guarantees for Spectral Initialization in Rotation Averaging and Pose-Graph SLAM",
+      "abstract": "In this work we present the first initialization methods equipped with explicit performance guarantees adapted to the pose-graph simultaneous localization and mapping (SLAM) and rotation averaging (RA) problems. SLAM and rotation averaging are typically formalized as large-scale nonconvex point estimation problems, with many bad local minima that can entrap the smooth optimization methods typically applied to solve them; the performance of standard SLAM and RA algorithms thus crucially depends upon the quality of the estimates used to initialize this local search. While many initialization methods for SLAM and RA have appeared in the literature, these are typically obtained as purely heuristic approximations, making it difficult to determine whether (or under what circumstances) these techniques can be reliably deployed. In contrast, in this work we study the problem of initialization through the lens of spectral relaxation. Specifically, we derive a simple spectral relaxation of SLAM and RA, the form of which enables us to exploit classical linear-algebraic techniques (eigenvector perturbation bounds) to control the distance from our spectral estimate to both the (unknown) ground-truth and the global minimizer of the estimation problem as a function of measurement noise. Our results reveal the critical role that spectral graph-theoretic properties of the measurement network play in controlling estimation accuracy; moreover, as a by-product of our analysis we obtain new bounds on the estimation error for the maximum likelihood estimators in SLAM and RA, which are likely to be of independent interest. Finally, we show experimentally that our spectral estimator is very effective in practice, producing initializations of comparable or superior quality at lower computational cost compared to existing state-of-the-art techniques.",
+      "authors": [
+        "Kevin J. Doherty",
+        "David M. Rosen",
+        "John J. Leonard"
+      ],
+      "published": "2022-01-11T04:29:37Z",
+      "updated": "2022-01-11T04:29:37Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2201.03773v1",
+      "pdf_url": "https://arxiv.org/pdf/2201.03773v1"
+    },
+    {
+      "arxiv_id": "2401.04784",
+      "arxiv_id_versioned": "2401.04784v2",
+      "version": "2",
+      "title": "Energy Landscapes for the Quantum Approximate Optimisation Algorithm",
+      "abstract": "Variational quantum algorithms (VQAs) have demonstrated considerable potential in solving NP-hard combinatorial problems in the contemporary near intermediate-scale quantum (NISQ) era. The quantum approximate optimisation algorithm (QAOA) is one such algorithm, used in solving the maximum cut (Max-Cut) problem for a given graph by successive implementation of $L$ quantum circuit layers within a corresponding Trotterised ansatz. The challenge of exploring the cost function of VQAs arising from an exponential proliferation of local minima with increasing circuit depth has been well-documented. However, fewer studies have investigated the impact of circuit depth on QAOA performance in finding the correct Max-Cut solution. Here, we employ basin-hopping global optimisation methods to navigate the energy landscapes for QAOA ansätze for various graphs, and analyse QAOA performance in finding the correct Max-Cut solution. The structure of the solution space is also investigated using discrete path sampling to build databases of local minima and the transition states that connect them, providing insightful visualisations using disconnectivity graphs. We find that the corresponding landscapes generally have a single funnel organisation, which makes it relatively straightforward to locate low-lying minima with good Max-Cut solution probabilities. In some cases below the adiabatic limit the second lowest local minimum may even yield a higher solution probability than the global minimum. This important observation has motivated us to develop broader metrics in evaluating QAOA performance, based on collections of minima obtained from basin-hopping global optimisation. Hence we establish expectation thresholds in elucidating useful solution probabilities from local minima, an approach that may provide significant gains in elucidating reasonable solution probabilities from local minima.",
+      "authors": [
+        "Boy Choy",
+        "David J. Wales"
+      ],
+      "published": "2024-01-09T19:17:01Z",
+      "updated": "2024-05-08T12:12:52Z",
+      "primary_category": "quant-ph",
+      "categories": [
+        "quant-ph"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/2401.04784v2",
+      "pdf_url": "https://arxiv.org/pdf/2401.04784v2"
+    },
+    {
+      "arxiv_id": "1903.07163",
+      "arxiv_id_versioned": "1903.07163v1",
+      "version": "1",
+      "title": "OIM: Oscillator-based Ising Machines for Solving Combinatorial Optimisation Problems",
+      "abstract": "We present a new way to make Ising machines, i.e., using networks of coupled self-sustaining nonlinear oscillators. Our scheme is theoretically rooted in a novel result that establishes that the phase dynamics of coupled oscillator systems, under the influence of sub-harmonic injection locking, are governed by a Lyapunov function that is closely related to the Ising Hamiltonian of the coupling graph. As a result, the dynamics of such oscillator networks evolve naturally to local minima of the Lyapunov function. Two simple additional steps (i.e., adding noise, and turning sub-harmonic locking on and off smoothly) enable the network to find excellent solutions of Ising problems. We demonstrate our method on Ising versions of the MAX-CUT and graph colouring problems, showing that it improves on previously published results on several problems in the G benchmark set. Our scheme, which is amenable to realisation using many kinds of oscillators from different physical domains, is particularly well suited for CMOS IC implementation, offering significant practical advantages over previous techniques for making Ising machines. We present working hardware prototypes using CMOS electronic oscillators.",
+      "authors": [
+        "Tianshi Wang",
+        "Jaijeet Roychowdhury"
+      ],
+      "published": "2019-03-17T20:36:22Z",
+      "updated": "2019-03-17T20:36:22Z",
+      "primary_category": "cs.ET",
+      "categories": [
+        "cs.ET"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": null,
+      "abstract_url": "https://arxiv.org/abs/1903.07163v1",
+      "pdf_url": "https://arxiv.org/pdf/1903.07163v1"
+    },
+    {
+      "arxiv_id": "2206.12961",
+      "arxiv_id_versioned": "2206.12961v3",
+      "version": "3",
+      "title": "An Efficient Global Optimality Certificate for Landmark-Based SLAM",
+      "abstract": "Modern state estimation is often formulated as an optimization problem and solved using efficient local search methods. These methods at best guarantee convergence to local minima, but, in some cases, global optimality can also be certified. Although such global optimality certificates have been well established for 3D \\textit{pose-graph optimization}, the details have yet to be worked out for the 3D landmark-based SLAM problem, in which estimated states include both robot poses and map landmarks. In this paper, we address this gap by using a graph-theoretic approach to cast the subproblems of landmark-based SLAM into a form that yields a sufficient condition for global optimality. Efficient methods of computing the optimality certificates for these subproblems exist, but first require the construction of a large data matrix. We show that this matrix can be constructed with complexity that remains linear in the number of landmarks and does not exceed the state-of-the-art computational complexity of one local solver iteration. We demonstrate the efficacy of the certificate on simulated and real-world landmark-based SLAM problems. We also integrate our method into the state-of-the-art SE-Sync pipeline to efficiently solve landmark-based SLAM problems to global optimality. Finally, we study the robustness of the global optimality certificate to measurement noise, taking into consideration the effect of the underlying measurement graph.",
+      "authors": [
+        "Connor Holmes",
+        "Timothy D. Barfoot"
+      ],
+      "published": "2022-06-26T20:24:39Z",
+      "updated": "2022-11-24T01:40:07Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": "10 pages, 7 figures",
+      "abstract_url": "https://arxiv.org/abs/2206.12961v3",
+      "pdf_url": "https://arxiv.org/pdf/2206.12961v3"
+    },
+    {
+      "arxiv_id": "2511.22860",
+      "arxiv_id_versioned": "2511.22860v1",
+      "version": "1",
+      "title": "MARVO: Marine-Adaptive Radiance-aware Visual Odometry",
+      "abstract": "Underwater visual localization remains challenging due to wavelength-dependent attenuation, poor texture, and non-Gaussian sensor noise. We introduce MARVO, a physics-aware, learning-integrated odometry framework that fuses underwater image formation modeling, differentiable matching, and reinforcement-learning optimization. At the front-end, we extend transformer-based feature matcher with a Physics Aware Radiance Adapter that compensates for color channel attenuation and contrast loss, yielding geometrically consistent feature correspondences under turbidity. These semi dense matches are combined with inertial and pressure measurements inside a factor-graph backend, where we formulate a keyframe-based visual-inertial-barometric estimator using GTSAM library. Each keyframe introduces (i) Pre-integrated IMU motion factors, (ii) MARVO-derived visual pose factors, and (iii) barometric depth priors, giving a full-state MAP estimate in real time. Lastly, we introduce a Reinforcement-Learningbased Pose-Graph Optimizer that refines global trajectories beyond local minima of classical least-squares solvers by learning optimal retraction actions on SE(2).",
+      "authors": [
+        "Sacchin Sundar",
+        "Atman Kikani",
+        "Aaliya Alam",
+        "Sumukh Shrote",
+        "A. Nayeemulla Khan",
+        "A. Shahina"
+      ],
+      "published": "2025-11-28T03:31:40Z",
+      "updated": "2025-11-28T03:31:40Z",
+      "primary_category": "cs.RO",
+      "categories": [
+        "cs.RO",
+        "cs.CV"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": "10 pages, 5 figures, 3 tables, Submitted to CVPR2026",
+      "abstract_url": "https://arxiv.org/abs/2511.22860v1",
+      "pdf_url": "https://arxiv.org/pdf/2511.22860v1"
+    },
+    {
+      "arxiv_id": "2509.09581",
+      "arxiv_id_versioned": "2509.09581v1",
+      "version": "1",
+      "title": "Programmable 200 GOPS Hopfield-inspired photonic Ising machine",
+      "abstract": "Ising machines offer a compelling approach to addressing NP-hard problems, but physical realizations that are simultaneously scalable, reconfigurable, fast, and stable remain elusive. Quantum annealers, like D-Wave's cryogenic hardware, target combinatorial optimization tasks, but quadratic scaling of qubit requirements with problem size limits their scalability on dense graphs. Here, we introduce a programmable, stable, room-temperature optoelectronic oscillator (OEO)-based Ising machine with linear scaling in spin representation. Inspired by Hopfield networks, our architecture solves fully-connected problems with up to 256 spins (65,536 couplings), and $>$41,000 spins (205,000+ couplings) if sparse. Our system leverages cascaded thin-film lithium niobate modulators, a semiconductor optical amplifier, and a digital signal processing (DSP) engine in a recurrent time-encoded loop, demonstrating potential $>$200 giga-operations per second for spin coupling and nonlinearity. This platform achieves the largest spin configuration in an OEO-based photonic Ising machine, enabled by high intrinsic speed. We experimentally demonstrate best-in-class solution quality for Max-Cut problems of arbitrary graph topologies (2,000 and 20,000 spins) among photonic Ising machines and obtain ground-state solutions for number partitioning and lattice protein folding - benchmarks previously unaddressed by photonic systems. Our system leverages inherent noise from high baud rates to escape local minima and accelerate convergence. Finally, we show that embedding DSP - traditionally used in optical communications - within optical computation enhances convergence and solution quality, opening new frontiers in scalable, ultrafast computing for optimization, neuromorphic processing, and analog AI.",
+      "authors": [
+        "Nayem AL-Kayed",
+        "Charles St-Arnault",
+        "Hugh Morison",
+        "A. Aadhi",
+        "Chaoran Huang",
+        "Alexander N. Tait",
+        "David V. Plant",
+        "Bhavin J. Shastri"
+      ],
+      "published": "2025-09-11T16:17:07Z",
+      "updated": "2025-09-11T16:17:07Z",
+      "primary_category": "physics.optics",
+      "categories": [
+        "physics.optics",
+        "physics.app-ph"
+      ],
+      "doi": "10.1038/s41586-025-09838-7",
+      "journal_ref": "Nature 648, 576-584 (2025)",
+      "comment": "20 Pages, 7 figures",
+      "abstract_url": "https://arxiv.org/abs/2509.09581v1",
+      "pdf_url": "https://arxiv.org/pdf/2509.09581v1"
+    },
+    {
+      "arxiv_id": "2512.07182",
+      "arxiv_id_versioned": "2512.07182v1",
+      "version": "1",
+      "title": "A versatile coherent Ising computing platform",
+      "abstract": "Coherent Ising Machines (CIMs) have emerged as a hybrid form of quantum computing devices designed to solve NP-complete problems, offering an exciting opportunity for discovering optimal solutions. Despite challenges such as susceptibility to noise-induced local minima, we achieved notable advantages in improving the computational accuracy and stability of CIMs. We conducted a successful experimental demonstration of CIM via femto-second laser pumping that integrates optimization strategies across optical and structural dimensions, resulting in significant performance enhancements. The results are particularly promising. An average success rate of 55% was achieved to identify optimal solutions within a Mobius Ladder graph comprising 100 vertices. Compared with other alternatives, the femto-second pulse results in significantly higher peak power, leading to more pronounced quantum effects and lower pump power in optical fiber based CIMs. In addition, we have maintained an impressive success rate for a continuous period of 8 hours, emphasizing the practical applicability of CIMs in real-world scenarios. Furthermore, our research extends to the application of these principles in practical applications such as molecular docking and credit scoring. The results presented substantiate the theoretical promise of CIMs, paving the way for their integration into large-scale practical applications.",
+      "authors": [
+        "Hai Wei",
+        "Chengjun Ai",
+        "Putuo Guo",
+        "Bingjie Jia",
+        "Lixin Yuan",
+        "Hanquan Song",
+        "Shaobo Chen",
+        "Chongyu Cao",
+        "Jie Wu",
+        "Chao Ju",
+        "Yin Ma",
+        "Jintao Fan",
+        "Minglie Hu",
+        "Chuan Wang",
+        "Kai Wen"
+      ],
+      "published": "2025-12-08T05:25:37Z",
+      "updated": "2025-12-08T05:25:37Z",
+      "primary_category": "quant-ph",
+      "categories": [
+        "quant-ph"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": "37 pages, 7 figures, comments are welcome",
+      "abstract_url": "https://arxiv.org/abs/2512.07182v1",
+      "pdf_url": "https://arxiv.org/pdf/2512.07182v1"
+    },
+    {
+      "arxiv_id": "2408.12648",
+      "arxiv_id_versioned": "2408.12648v4",
+      "version": "4",
+      "title": "A Monte Carlo Tree Search approach to QAOA: finding a needle in the haystack",
+      "abstract": "The search for quantum algorithms to tackle classical combinatorial optimization problems has long been one of the most attractive yet challenging research topics in quantum computing. In this context, variational quantum algorithms (VQA) are a promising family of hybrid quantum-classical methods tailored to cope with the limited capability of near-term quantum hardware. However, their effectiveness is hampered by the complexity of the classical parameter optimization which is prone to getting stuck either in local minima or in flat regions of the cost-function landscape. The clever design of efficient optimization methods is therefore of fundamental importance for fully leveraging the potential of VQAs. In this work, we approach QAOA parameter optimization as a sequential decision-making problem and tackle it with an adaptation of Monte Carlo Tree Search (MCTS), a common artificial intelligence technique designed for efficiently exploring complex decision graphs. We show that leveraging regular parameter patterns deeply affects the decision-tree structure and allows for a flexible and noise-resilient optimization strategy suitable for near-term quantum devices. Our results shed further light on the interplay between artificial intelligence and quantum information and provide a valuable addition to the toolkit of variational quantum circuits.",
+      "authors": [
+        "Andoni Agirre",
+        "Evert Van Nieuwenburg",
+        "Matteo M. Wauters"
+      ],
+      "published": "2024-08-22T18:00:02Z",
+      "updated": "2025-04-14T08:52:04Z",
+      "primary_category": "quant-ph",
+      "categories": [
+        "quant-ph",
+        "cond-mat.dis-nn",
+        "cond-mat.stat-mech"
+      ],
+      "doi": "10.1088/1367-2630/adc765",
+      "journal_ref": "2025 New J. Phys. 27 043014",
+      "comment": "12+9 pages, 6+6 figures",
+      "abstract_url": "https://arxiv.org/abs/2408.12648v4",
+      "pdf_url": "https://arxiv.org/pdf/2408.12648v4"
+    },
+    {
+      "arxiv_id": "2011.00918",
+      "arxiv_id_versioned": "2011.00918v2",
+      "version": "2",
+      "title": "Representations of Energy Landscapes by Sublevelset Persistent Homology: An Example With n-Alkanes",
+      "abstract": "Encoding the complex features of an energy landscape is a challenging task, and often chemists pursue the most salient features (minima and barriers) along a highly reduced space, i.e. 2- or 3-dimensions. Even though disconnectivity graphs or merge trees summarize the connectivity of the local minima of an energy landscape via the lowest-barrier pathways, there is more information to be gained by also considering the topology of each connected component at different energy thresholds (or sublevelsets). We propose sublevelset persistent homology as an appropriate tool for this purpose. Our computations on the configuration phase space of n-alkanes from butane to octane allow us to conjecture, and then prove, a complete characterization of the sublevelset persistent homology of the alkane $C_m H_{2m+2}$ potential energy landscapes, for all $m$, and in all homological dimensions. We further compare both the analytical configurational potential energy landscapes and sampled data from molecular dynamics simulation, using the united and all-atom descriptions of the intramolecular interactions. In turn, this supports the application of distance metrics to quantify sampling fidelity and lays the foundation for future work regarding new metrics that quantify differences between the topological features of high-dimensional energy landscapes.",
+      "authors": [
+        "Joshua Mirth",
+        "Yanqin Zhai",
+        "Johnathan Bush",
+        "Enrique G Alvarado",
+        "Howie Jordan",
+        "Mark Heim",
+        "Bala Krishnamoorthy",
+        "Markus Pflaum",
+        "Aurora Clark",
+        "Yang Zhang",
+        "Henry Adams"
+      ],
+      "published": "2020-11-02T11:55:31Z",
+      "updated": "2021-03-19T17:37:27Z",
+      "primary_category": "physics.chem-ph",
+      "categories": [
+        "physics.chem-ph",
+        "math-ph",
+        "math.AT"
+      ],
+      "doi": "10.1063/5.0036747",
+      "journal_ref": "J. Chem. Phys. 154, 114114 (2021)",
+      "comment": "Minor revisions to address reviewers' comments; final version published in JCP",
+      "abstract_url": "https://arxiv.org/abs/2011.00918v2",
+      "pdf_url": "https://arxiv.org/pdf/2011.00918v2"
+    },
+    {
+      "arxiv_id": "2405.20849",
+      "arxiv_id_versioned": "2405.20849v4",
+      "version": "4",
+      "title": "Locally Stationary Distributions: A Framework for Analyzing Slow-Mixing Markov Chains",
+      "abstract": "Many natural Markov chains fail to mix to their stationary distribution in polynomially many steps. Often, this slow mixing is inevitable since it is computationally intractable to sample from their stationary measure. Nevertheless, Markov chains can be shown to always converge quickly to measures that are locally stationary, i.e., measures that don't change over a small number of steps. These locally stationary measures are analogous to local minima in continuous optimization, while stationary measures correspond to global minima. While locally stationary measures can be statistically far from stationary measures, do they enjoy provable theoretical guarantees that have algorithmic implications? We study this question in this work and demonstrate three algorithmic applications of locally stationary measures: 1. We show that Glauber dynamics on the hardcore model can be used to find independent sets of size $Ω\\left(\\frac{\\log d}{d} \\cdot n\\right)$ in triangle-free graphs of degree at most $d$. 2. Let $W$ be a symmetric real matrix with bounded spectral diameter and $v$ be a unit vector. Given the matrix $M = λvv^\\top + W$ with a planted rank-one spike along vector $v$, for sufficiently large constant $λ$, Glauber dynamics on the Ising model defined by $M$ samples vectors $x \\in \\{\\pm 1\\}^n$ that have constant correlation with the vector $v$. 3. Let $M = A_{\\mathbf{G}} - \\frac{d}{n}\\mathbf{1}\\mathbf{1}^\\top$ be a centered version of the adjacency matrix where the graph $\\mathbf{G}$ is drawn from a sparse 2-community stochastic block model. We show that for sufficiently large constant signal-to-noise ratio, Glauber dynamics on the Ising model defined by $M$ samples vectors $x \\in \\{\\pm 1\\}^n$ that have constant correlation with the hidden community vector $\\mathbfσ$.",
+      "authors": [
+        "Kuikui Liu",
+        "Sidhanth Mohanty",
+        "Prasad Raghavendra",
+        "Amit Rajaraman",
+        "David X. Wu"
+      ],
+      "published": "2024-05-31T14:32:32Z",
+      "updated": "2025-07-06T13:25:14Z",
+      "primary_category": "cs.DS",
+      "categories": [
+        "cs.DS",
+        "math.PR"
+      ],
+      "doi": null,
+      "journal_ref": null,
+      "comment": "37 pages",
+      "abstract_url": "https://arxiv.org/abs/2405.20849v4",
+      "pdf_url": "https://arxiv.org/pdf/2405.20849v4"
+    }
+  ]
+}
